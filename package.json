@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mdi/font": "^4.2.95",
+    "@mdi/js": "^4.2.95",
+    "@mdi/react": "^1.2.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"

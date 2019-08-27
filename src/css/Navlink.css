@@ -1,0 +1,12 @@
+.navlink {
+  min-width: 64px;
+  height: 60px;
+  margin: 0 2px;
+  text-decoration: none;
+}
+
+.navlink p {
+  color: #777;
+  font: 9px 'Muli', sans-serif;
+  margin: 5px 0;
+}
