@@ -10,7 +10,7 @@ function Navbar() {
         <a className="logo" href='#'>torre</a>
         <div className="navlinks row">
           {links.map(link =>
-            <Navlink icon={link.icon} label={link.label} anchor={link.anchor} />
+            <Navlink icon={link.icon} label={link.label} anchor={link.anchor} key={links.indexOf(link)} />
           )}
         </div>
       </div>
