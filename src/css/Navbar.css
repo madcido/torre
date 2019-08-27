@@ -1,0 +1,15 @@
+.navbar {
+  background-color: white;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+  font: bold 36px 'Muli', sans-serif;
+}
