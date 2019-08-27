@@ -9,6 +9,7 @@
 
 .header > div {
   height: 100%;
+  /* position: relative; */
 }
 
 .header-card {
@@ -16,5 +17,57 @@
   left: 0;
   top: 50%;
   margin-top: -200px;
-  height: 400px;
+  padding: 50px;
+  background-color: white;
+  max-width: 550px;
+  border-radius: 8px;
+  box-shadow: 0 0 2px white;
+}
+
+.header-card h1 {
+  color: #00acc1;
+  font: bold 36px 'Muli', sans-serif;
+  line-height: 1.1em;
+  margin-top: 10px;
+}
+
+.header-card p {
+  color: #333;
+  font: 16px 'Muli', sans-serif;
+}
+
+.searchbar {
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  height: 44px;
+  border-radius: 2px;
+}
+
+.searchbar label {
+  font-size: 12px;
+  color: #777;
+  margin-right: 20px;
+  padding-left: 10px;
+}
+
+.searchbar input[type='text'] {
+  border: none;
+  padding: 0 20px;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.searchbar input[type='submit'] {
+  border: none;
+  color: white;
+  background-color: #00acc1;
+  padding: 0 30px;
+  height: 100%;
+  font-size: 12px;
+  border-radius: 0 2px 2px 0;
+}
+
+::placeholder {
+  font-size: 12px;
+  color: #777;
+  opacity: 1;
 }

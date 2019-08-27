@@ -8,7 +8,7 @@ function Header() {
         <div className="header-card">
           <h1>A new professional network that is fun, and useful.</h1>
           <p>With automagical AI-powered to search, filter, rank, and process jobs, gigs, and internships.</p>
-          <form className="searchbar">
+          <form className="searchbar row center justify-end">
             <input type="text" name="search-text" placeHolder="Search by skills" />
             <input type="radio" name="search-type" value="people" id="radio-people" />
             <label for="radio-people">People</label>
