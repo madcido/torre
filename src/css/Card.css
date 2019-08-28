@@ -1,34 +1,6 @@
 .card {
   margin: 10px;
   flex: 1;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   position: relative;
-}
-
-.static-card {
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.static-card img {
-  width: 60px;
-  height: 60px;
-  margin: 20px;
-}
-
-.static-card .down-arrow {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 28px;
-}
-
-.static-card p {
-  color: #00acc1;
-  font: 14px 'Muli', sans-serif;
-}
-
-.static-card > div p:last-of-type {
-  color: #444;
 }
