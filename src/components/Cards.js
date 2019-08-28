@@ -1,5 +1,6 @@
 import HowWeHelp from './HowWeHelp';
 import JobCard from './JobCard';
-import PersonCard from './PersonCard';
+import ProfessionalCard from './ProfessionalCard';
+import ConsultantCard from './ConsultantCard';
 
-export { HowWeHelp, JobCard, PersonCard };
+export { HowWeHelp, JobCard, ProfessionalCard, ConsultantCard };

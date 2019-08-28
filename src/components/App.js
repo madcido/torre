@@ -19,12 +19,16 @@ function App() {
         cardType="JobCard"
         cardData={jobs} />
       <SlideSection
+        title="Top software development professionals"
+        cardType="ProfessionalCard"
+        cardData={people} />
+      <SlideSection
         title="Top remote software development jobs"
         cardType="JobCard"
         cardData={jobs.filter(job => job.area === 'dev')} />
       <SlideSection
         title="Fastest-rising consultants globally"
-        cardType="PersonCard"
+        cardType="ConsultantCard"
         cardData={people} />
     </div>
   );

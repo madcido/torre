@@ -1,13 +1,13 @@
 import React from 'react';
 import '../css/Card.css';
-import '../css/PersonCard.css';
+import '../css/ConsultantCard.css';
 import HexagonBorder from './HexagonBorder';
 import PersonInfo from './PersonInfo';
 import SignalButton from './SignalButton';
 
-function PersonCard({data}) {
+function ConsultantCard({data}) {
   return (
-    <div className='card person-card col center'>
+    <div className='card consultant-card col center'>
       <div className='person-avatar'>
         <HexagonBorder image={data.avatar} />
       </div>
@@ -18,4 +18,4 @@ function PersonCard({data}) {
   );
 }
 
-export default PersonCard;
+export default ConsultantCard;

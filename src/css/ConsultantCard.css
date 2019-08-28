@@ -1,12 +1,12 @@
-.person-card {
+.consultant-card {
   margin-top: 30px;
 }
 
-.person-card > p {
+.consultant-card > p {
   flex: 1;
 }
 
-.person-card p {
+.consultant-card p {
   color: #777;
   font: 13px 'Muli', sans-serif;
   line-height: 20px;
@@ -14,7 +14,7 @@
   text-align: center;
 }
 
-.person-card .person-avatar {
+.consultant-card .person-avatar {
   position:relative;
   top: -20px;
   width: 129px;
@@ -22,6 +22,6 @@
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
-.person-card .signal-btn {
+.consultant-card .signal-btn {
   margin: 20px 0;
 }
