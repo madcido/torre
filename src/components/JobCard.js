@@ -3,6 +3,7 @@ import '../css/Card.css';
 import '../css/JobCard.css';
 import HexagonBorder from './HexagonBorder';
 import Counter from './Counter';
+import SignalButton from './SignalButton';
 import Icon from '@mdi/react';
 import { mdiShareVariant } from '@mdi/js';
 
@@ -17,7 +18,7 @@ function JobCard({data}) {
       <p>{data.title}</p>
       <div className='row center'>
         <p>{data.company}</p>
-        <p className='signal-btn'>SIGNAL</p>
+        <SignalButton />
       </div>
       <p>{data.type}</p>
       <p>USD $<span>{data.salary}</span>/year</p>
