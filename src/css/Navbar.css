@@ -13,6 +13,7 @@
   margin: 0 10px;
   color: #333;
   text-decoration: none;
-  font: bold 36px 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
   outline: none;
 }

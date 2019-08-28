@@ -2,12 +2,14 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Muli', sans-serif;
 }
 
 h1 {
   margin: 0;
   color: #00acc1;
-  font: 20px 'Muli', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 p {

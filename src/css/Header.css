@@ -26,12 +26,13 @@
 }
 
 .header-card h1 {
-  font: bold 36px 'Muli', sans-serif;
+  font-weight: bold; 
+  font-size: 36px;
   line-height: 1.1em;
 }
 
 .header-card p {
   color: #333;
-  font: 16px 'Muli', sans-serif;
+  font-size: 16px;
   margin: 20px 0;
 }

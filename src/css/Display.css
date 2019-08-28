@@ -17,7 +17,8 @@
 }
 
 .display p {
-  font: bold 40px 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
   color: #00acc1;
 }
 

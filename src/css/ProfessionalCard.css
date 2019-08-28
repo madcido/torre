@@ -4,12 +4,12 @@
 
 .professional-card p {
   color: #777;
-  font: 13px 'Muli', sans-serif;
+  font-size: 13px;
 }
 
 .professional-card a {
   color: #00acc1;
-  font: 13px 'Muli', sans-serif;
+  font-size: 13px;
   text-decoration: none;
   margin-bottom: 20px;
 }
