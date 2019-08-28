@@ -1,4 +1,4 @@
 import HowWeHelp from './HowWeHelp';
-import RemoteJobs from './RemoteJobs';
+import JobCard from './JobCard';
 
-export { HowWeHelp, RemoteJobs };
+export { HowWeHelp, JobCard };

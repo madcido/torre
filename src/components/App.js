@@ -16,7 +16,11 @@ function App() {
         cardData={howWeHelp} />
       <SlideSection
         title="Top remote jobs"
-        cardType="RemoteJobs"
+        cardType="JobCard"
+        cardData={remoteJobs} />
+      <SlideSection
+        title="Top remote software development jobs"
+        cardType="JobCard"
         cardData={remoteJobs} />
     </div>
   );

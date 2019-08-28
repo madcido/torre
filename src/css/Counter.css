@@ -1,0 +1,18 @@
+.counter p {
+  margin: 0;
+  padding: 0 10px;
+  position: relative;
+}
+
+.counter p:not(:last-of-type) {
+  border-right: 1px solid #00acc1;
+}
+
+.counter p span {
+  color: #777;
+  font-size: 7px;
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
