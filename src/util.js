@@ -10,6 +10,16 @@ function getDataToDisplay(array, index) {
     }
   }
   return toDisplay;
-};
+}
 
-export { getDataToDisplay };
+function trimStr(str, size = 1) {
+  let trimmedStr = '';
+  if (str.length > size) {
+    trimmedStr = str.slice(0, size) + '...';
+  } else {
+    trimmedStr = str;
+  }
+  return trimmedStr;
+}
+
+export { getDataToDisplay, trimStr };

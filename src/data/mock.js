@@ -163,6 +163,7 @@ const jobs = [
 const people = [
   {
     name: 'Weird Green',
+    profession: ['Full-stack Developers', 'Front-end Developers'],
     position: 'HR Consultant',
     upVotes: '230',
     tag: 'HR',
@@ -172,6 +173,7 @@ const people = [
   },
   {
     name: 'Pseudo Ozzy',
+    profession: ['Full-stack Developers', 'Back-end Developers'],
     position: 'Digital Marketing Consultant',
     upVotes: '1400',
     tag: 'Content Marketing',
@@ -180,7 +182,8 @@ const people = [
     avatar: 'https://pickaface.net/gallery/avatar/Opi51e65b61dcd54.png',
   },
   {
-    name: 'One Punch Man',
+    name: 'OnePunch Man',
+    profession: ['Other', 'Back-end Developers'],
     position: 'Software Developer and Consultant',
     upVotes: '1000',
     tag: 'Android',
@@ -190,6 +193,7 @@ const people = [
   },
   {
     name: 'Little Pretty',
+    profession: ['Other', 'Dev Ops Enginners'],
     position: 'Award Winning Consultant',
     upVotes: '8700',
     tag: 'Promotions and Marketing',
@@ -199,6 +203,7 @@ const people = [
   },
   {
     name: 'Regular Dude',
+    profession: ['Dev Ops Enginners', 'Front-end Developers'],
     position: 'Regular Consultant',
     upVotes: '200',
     tag: 'Regular',
@@ -208,4 +213,11 @@ const people = [
   },
 ];
 
-export { howWeHelp, jobs, people };
+const professions = [
+  'Full-stack Developers',
+  'Front-end Developers',
+  'Back-end Developers',
+  'Dev Ops Enginners',
+  'Other',
+];
+export { howWeHelp, jobs, people, professions };
