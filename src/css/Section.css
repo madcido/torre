@@ -1,0 +1,14 @@
+.section-head {
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.section-head a {
+  color: #00acc1;
+  font: 20px 'Muli', sans-serif;
+  text-decoration: none;
+}
+
+.section-head a:last-of-type {
+  font-size: 16px;
+}

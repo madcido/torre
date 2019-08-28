@@ -1,6 +1,7 @@
 import React from 'react';
-import '../css/StaticSection.css';
+import '../css/Section.css';
 import * as allCards from './Cards';
+import Display from './Display';
 
 function StaticSection({title, cardType, cardData}) {
   const Card = allCards[cardType];
@@ -14,6 +15,7 @@ function StaticSection({title, cardType, cardData}) {
           <Card data={data} key={cardData.indexOf(data)} />
         )}
       </div>
+      <Display />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React from 'react';
-import '../css/SlideSection.css';
+import '../css/Section.css';
+import '../css/Slider.css';
 import * as allCards from './Cards';
 import { getDataToDisplay } from '../util.js';
 
@@ -37,8 +38,8 @@ class SlideSection extends React.Component {
     return (
       <div className="container">
         <div className="section-head row center justify-between">
-          <h1>{this.props.title} ➡</h1>
-          <p>VIEW ALL</p>
+          <a href='#'>{this.props.title} ➡</a>
+          <a href='#'>VIEW ALL</a>
         </div>
         <div className="slider row">
           <div className="slider-btn slider-left" onClick={this.previousCard}>⬅</div>
