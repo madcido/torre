@@ -22,6 +22,10 @@ function App() {
         title="Top remote software development jobs"
         cardType="JobCard"
         cardData={jobs.filter(job => job.area === 'dev')} />
+      <SlideSection
+        title="Fastest-rising consultants globally"
+        cardType="PersonCard"
+        cardData={people} />
     </div>
   );
 }

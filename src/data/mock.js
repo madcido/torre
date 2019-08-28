@@ -161,7 +161,51 @@ const jobs = [
 ];
 
 const people = [
-
+  {
+    name: 'Weird Green',
+    position: 'HR Consultant',
+    upVotes: '230',
+    tag: 'HR',
+    tagVotes: '1345',
+    openTo: 'Full-time and/or part-time employment and freelance gigs',
+    avatar: 'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
+  },
+  {
+    name: 'Pseudo Ozzy',
+    position: 'Digital Marketing Consultant',
+    upVotes: '1400',
+    tag: 'Content Marketing',
+    tagVotes: '345',
+    openTo: 'Full-time and/or part-time employment',
+    avatar: 'https://pickaface.net/gallery/avatar/Opi51e65b61dcd54.png',
+  },
+  {
+    name: 'One Punch Man',
+    position: 'Software Developer and Consultant',
+    upVotes: '1000',
+    tag: 'Android',
+    tagVotes: '34543',
+    openTo: 'Full-time and/or part-time employment and freelance gigs',
+    avatar: 'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
+  },
+  {
+    name: 'Little Pretty',
+    position: 'Award Winning Consultant',
+    upVotes: '8700',
+    tag: 'Promotions and Marketing',
+    tagVotes: '123123',
+    openTo: 'Freelance gigs',
+    avatar: 'https://i.pinimg.com/originals/38/a7/1f/38a71f1048bd022158b2b094f652156a.png',
+  },
+  {
+    name: 'Regular Dude',
+    position: 'Regular Consultant',
+    upVotes: '200',
+    tag: 'Regular',
+    tagVotes: '657',
+    openTo: 'Regular stuff',
+    avatar: 'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+  },
 ];
 
 export { howWeHelp, jobs, people };
