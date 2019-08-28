@@ -42,8 +42,8 @@ class SlideSection extends React.Component {
           <a href='#'>VIEW ALL</a>
         </div>
         <div className="slider row">
-          <div className="slider-btn slider-left" onClick={this.previousCard}>⬅</div>
-          <div className="slider-btn slider-right" onClick={this.nextCard}>➡</div>
+          <div className="slider-btn btn-1 slider-left" onClick={this.previousCard}>⬅</div>
+          <div className="slider-btn btn-1 slider-right" onClick={this.nextCard}>➡</div>
           {dataToDisplay.map(data =>
             <Card data={data} key={this.props.cardData.indexOf(data)} />
           )}

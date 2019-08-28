@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import Header from './Header';
 import StaticSection from './StaticSection';
 import SlideSection from './SlideSection';
-import { howWeHelp, jobs, people } from '../data/mock.js';
+import { howWeHelp, jobs, people, professions } from '../data/mock.js';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       <SlideSection
         title="Top software development professionals"
         cardType="ProfessionalCard"
-        cardData={people} />
+        cardData={professions} />
       <SlideSection
         title="Top remote software development jobs"
         cardType="JobCard"

@@ -6,7 +6,7 @@
   flex: 1;
 }
 
-.consultant-card p {
+.consultant-card > p {
   color: #777;
   font: 13px 'Muli', sans-serif;
   line-height: 20px;
@@ -14,12 +14,54 @@
   text-align: center;
 }
 
-.consultant-card .person-avatar {
+.consultant-card .consultant-avatar {
   position:relative;
   top: -20px;
   width: 129px;
   height: 147px;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.consultant-card .consultant-info {
+  margin-bottom: 10px;
+  align-self: stretch;
+  position: relative;
+}
+
+.consultant-card .consultant-info img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.consultant-card .consultant-info p {
+  color: #333;
+  font: 13px 'Muli', sans-serif;
+}
+
+.consultant-card .consultant-info-head {
+  margin-bottom: 10px;
+}
+
+.consultant-info .consultant-info-head p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.consultant-card .tag {
+  padding: 5px 15px;
+  margin: 10px 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.consultant-card .tag span{
+  font-weight: bold;
+  margin-left: 7px;
 }
 
 .consultant-card .signal-btn {
