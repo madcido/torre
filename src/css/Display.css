@@ -1,3 +1,26 @@
 .display {
-  
+  height: 700px;
+  background-image: url('https://www.tokkoro.com/picsup/3063546-pool_ripples_swimming-pool_tiles_top-view_water_water-surface.jpg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: -60px;
+  z-index: -1;
+}
+
+.display > div {
+  margin: 0 10px;
+  padding: 50px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 2px white;
+}
+
+.display p {
+  font: bold 40px 'Muli', sans-serif;
+  color: #00acc1;
+}
+
+.display p:last-of-type {
+  color: #333;
 }
