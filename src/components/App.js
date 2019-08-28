@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import Header from './Header';
 import StaticSection from './StaticSection';
 import SlideSection from './SlideSection';
-import { howWeHelp, remoteJobs } from '../data/mock.js';
+import { howWeHelp, jobs, people } from '../data/mock.js';
 
 function App() {
   return (
@@ -17,11 +17,11 @@ function App() {
       <SlideSection
         title="Top remote jobs"
         cardType="JobCard"
-        cardData={remoteJobs} />
+        cardData={jobs} />
       <SlideSection
         title="Top remote software development jobs"
         cardType="JobCard"
-        cardData={remoteJobs} />
+        cardData={jobs.filter(job => job.area === 'dev')} />
     </div>
   );
 }

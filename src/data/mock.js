@@ -21,8 +21,9 @@ const howWeHelp = [
   },
 ];
 
-const remoteJobs = [
+const jobs = [
   {
+    area: 'dev',
     title: 'Database Administrator',
     company: 'Wikimedia Foundation',
     type: 'Employee/colleague',
@@ -39,6 +40,7 @@ const remoteJobs = [
     logo: 'https://cdn1.designhill.com/cache/uploads/pagefile/1554116576-13511971185ca1efe0bcd5a0-26602492-500x500.jpg?ver=2.10.26',
   },
   {
+    area: 'dev',
     title: 'Go Developer',
     company: 'X-Team',
     type: 'Freelance/contractor',
@@ -55,6 +57,7 @@ const remoteJobs = [
     logo: 'https://image.freepik.com/vetores-gratis/modelo-de-logotipo-de-gradiente-com-forma-abstrata_23-2148204210.jpg',
   },
   {
+    area: 'other',
     title: 'Director of sales',
     company: 'Close.io',
     type: 'Employee/colleague',
@@ -71,6 +74,7 @@ const remoteJobs = [
     logo: 'http://www.uidownload.com/files/517/657/114/colored-company-logos-creative-design-02.jpg',
   },
   {
+    area: 'other',
     title: 'Strategic Customer Engagement',
     company: 'Amazon Web Services',
     type: 'Employee/colleague',
@@ -87,6 +91,7 @@ const remoteJobs = [
     logo: 'https://cdn.vox-cdn.com/thumbor/yuQrQ__v1qgvzzJE9gezEM8srhA=/0x0:1200x800/1200x800/filters:focal(504x304:696x496)/cdn.vox-cdn.com/uploads/chorus_image/image/65043804/morning_company.0.jpg',
   },
   {
+    area: 'dev',
     title: 'Junior Developer',
     company: 'Voice123',
     type: 'Employee/colleague',
@@ -103,6 +108,7 @@ const remoteJobs = [
     logo: 'http://www.celebritypunchout.com/wp-content/uploads/2019/06/business-company-logo-template-buy-design-beautiful-buisness-trending-6.jpg',
   },
   {
+    area: 'other',
     title: 'Desarrollador',
     company: 'RAPPI',
     type: 'Employee/colleague',
@@ -119,6 +125,7 @@ const remoteJobs = [
     logo: 'https://image.shutterstock.com/image-vector/kk-initial-logo-company-name-600w-680692042.jpg',
   },
   {
+    area: 'dev',
     title: 'Senior Developer',
     company: 'Mixmax',
     type: 'Employee/colleague',
@@ -135,6 +142,7 @@ const remoteJobs = [
     logo: 'http://www.uidownload.com/files/517/657/114/colored-company-logos-creative-design-02.jpg',
   },
   {
+    area: 'dev',
     title: 'Full-stack Developer',
     company: 'Agency Analytics',
     type: 'Employee/colleague',
@@ -152,4 +160,8 @@ const remoteJobs = [
   },
 ];
 
-export { howWeHelp, remoteJobs };
+const people = [
+
+];
+
+export { howWeHelp, jobs, people };
