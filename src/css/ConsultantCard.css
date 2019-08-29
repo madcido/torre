@@ -3,15 +3,13 @@
 }
 
 .consultant-card > p {
-  flex: 1;
-}
-
-.consultant-card > p {
   color: #777;
   font-size: 13px;
   line-height: 20px;
   margin: 0 20px;
   text-align: center;
+  flex: 1;
+  z-index: 1;
 }
 
 .consultant-card .consultant-avatar {
@@ -27,6 +25,7 @@
   margin-bottom: 10px;
   align-self: stretch;
   position: relative;
+  z-index: 1;
 }
 
 .consultant-card .consultant-info img {
@@ -36,6 +35,7 @@
   transform: translate(-50%, -50%);
   width: 100%;
   opacity: 0.3;
+  z-index: -1;
 }
 
 .consultant-card .consultant-info p {
