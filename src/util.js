@@ -22,4 +22,11 @@ function trimStr(str, size = 1) {
   return trimmedStr;
 }
 
-export { getDataToDisplay, trimStr };
+function normalizeTime(number) {
+  if (number >= 0 && number < 10) {
+    return '0' + number;
+  }
+  return number;
+}
+
+export { getDataToDisplay, trimStr, normalizeTime };
