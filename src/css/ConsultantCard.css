@@ -15,8 +15,7 @@
 .consultant-card .consultant-avatar {
   position:relative;
   top: -20px;
-  width: 129px;
-  height: 147px;
+  width: 130px;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
   z-index: 2;
 }
