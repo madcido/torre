@@ -9,7 +9,7 @@
   margin: 0 20px;
   text-align: center;
   flex: 1;
-  z-index: 1;
+  z-index: 2;
 }
 
 .consultant-card .consultant-avatar {
@@ -18,7 +18,7 @@
   width: 129px;
   height: 147px;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
-  z-index: 1;
+  z-index: 2;
 }
 
 .consultant-card .consultant-info {
