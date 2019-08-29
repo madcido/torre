@@ -58,8 +58,8 @@ class ProfessionalCard extends React.Component {
                 <Icon path={mdiWeight} title='Weight' size={0.6} color='#333' />
                 <p>{dataToDisplay.upVotes}</p>
               </div>
-              <p className='professional-description'>{trimStr(dataToDisplay.position, 25)}</p>
-              <p className='row'>{trimStr(dataToDisplay.tag, 13)}<span>{dataToDisplay.tagVotes}</span></p>
+              <p className='professional-description'>{trimStr(dataToDisplay.position, 22)}</p>
+              <p className='row'>{trimStr(dataToDisplay.tag, 12)}<span>{dataToDisplay.tagVotes}</span></p>
             </div>
           </div>
           <div className="slider-btn slider-right" onClick={this.next}>
