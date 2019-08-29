@@ -67,11 +67,11 @@ class SlideSection extends React.Component {
     return (
       <div className="container col center">
         <div className="section-head row center justify-between">
-          <a href='#'>
+          <a href={this.props.anchor}>
             {this.props.title}
             <Icon path={mdiChevronRight} size={0.85} color='#00acc1' />
           </a>
-          <a href='#'>VIEW ALL</a>
+          <a href={this.props.anchor}>VIEW ALL</a>
         </div>
         <div className='slider row justify-center'>
           <div className="slider-btn btn-style slider-left row center justify-center" onClick={this.previousCard}>

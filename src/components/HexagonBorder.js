@@ -21,8 +21,8 @@ function HexagonBorder({image, width = 6, color = 'white'}) {
               Z`} />
         </clipPath>
       </defs>
-      <image href={image} width='100' height='120' clip-path="url(#hexagon_clip)" />
-      <use href="#hexagon" stroke={color} stroke-width={width} fill="transparent" />
+      <image href={image} width='100' height='120' clipPath="url(#hexagon_clip)" />
+      <use href="#hexagon" stroke={color} strokeWidth={width} fill="transparent" />
     </svg>
   );
 }

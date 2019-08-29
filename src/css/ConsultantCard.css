@@ -1,5 +1,5 @@
 .consultant-card {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .consultant-card > p {
@@ -59,7 +59,7 @@
 }
 
 .consultant-card .tag span{
-  font-weight: bold;
+  font-weight: 700;
   margin-left: 7px;
 }
 

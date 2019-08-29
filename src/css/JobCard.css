@@ -39,8 +39,8 @@
 }
 
 .job-card .team-members {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   margin: 0 3px;
 }
 
@@ -53,6 +53,7 @@
 
 .job-card .question {
   background-color: #eee;
+  border-bottom: 2px solid #ddd;
   margin: 10px 0;
 }
 
