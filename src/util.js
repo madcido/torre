@@ -1,7 +1,7 @@
-function getDataToDisplay(array, index) {
+function getDataToDisplay(array, index, n) {
   const toDisplay = [];
   let i = index;
-  let k = array.length < 4 ? array.length : 4;
+  let k = array.length < n ? array.length : n;
   while (toDisplay.length < k) {
     toDisplay.push(array[i]);
     i += 1;

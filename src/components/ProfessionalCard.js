@@ -46,9 +46,6 @@ class ProfessionalCard extends React.Component {
           <div className="slider-btn slider-left" onClick={this.previous}>
             <Icon path={mdiChevronLeft} size={1} color='#333' />
           </div>
-          <div className="slider-btn slider-right" onClick={this.next}>
-            <Icon path={mdiChevronRight} size={1} color='#333' />
-          </div>
           <div className='person-card row center'>
             <div className='professional-avatar'>
               <HexagonBorder image={dataToDisplay.avatar} />
@@ -64,6 +61,9 @@ class ProfessionalCard extends React.Component {
               <p className='professional-description'>{trimStr(dataToDisplay.position, 25)}</p>
               <p className='row'>{trimStr(dataToDisplay.tag, 13)}<span>{dataToDisplay.tagVotes}</span></p>
             </div>
+          </div>
+          <div className="slider-btn slider-right" onClick={this.next}>
+            <Icon path={mdiChevronRight} size={1} color='#333' />
           </div>
         </div>
         <a href='#'>VIEW MORE</a>

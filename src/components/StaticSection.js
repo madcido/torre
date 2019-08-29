@@ -43,7 +43,7 @@ class StaticSection extends React.Component {
     const Card = allCards[this.props.cardType];
     return (
       <div>
-        <div className="container">
+        <div className="container static-section">
           <div className="section-head">
             <h1>{this.props.title}</h1>
           </div>

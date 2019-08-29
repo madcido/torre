@@ -10,18 +10,18 @@
   z-index: 2;
 }
 
-.btn-style {
-  width: 32px;
-  height: 32px;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-}
-
 .slider-left {
   left: -6px;
 }
 
 .slider-right {
   right: -6px;
+}
+
+.btn-style {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
 }
