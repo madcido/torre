@@ -15,5 +15,12 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 36px;
+  line-height: 60px;
   outline: none;
+}
+
+@media (max-width: 660px) {
+  .navlinks {
+    display: none;
+  }
 }

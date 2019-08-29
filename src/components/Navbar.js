@@ -1,6 +1,7 @@
 import React from 'react';
-import Navlink from './Navlink';
 import '../css/Navbar.css';
+import Navlink from './Navlink';
+import BurgerMenu from './BurgerMenu';
 import { links } from '../data/links.js';
 
 function Navbar() {
@@ -13,6 +14,7 @@ function Navbar() {
             <Navlink icon={link.icon} label={link.label} anchor={link.anchor} key={links.indexOf(link)} />
           )}
         </div>
+        <BurgerMenu links={links} />
       </div>
     </div>
   );
