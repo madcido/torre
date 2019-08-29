@@ -29,11 +29,11 @@ class SlideSection extends React.Component {
 
   changeCardNumber() {
     let n = 0;
-    if (window.innerWidth < 720) {
+    if (window.innerWidth < 660) {
       n = 1;
-    } else if (window.innerWidth < 1020) {
+    } else if (window.innerWidth < 980) {
       n = 2;
-    } else if (window.innerWidth < 1320) {
+    } else if (window.innerWidth < 1300) {
       n = 3;
     } else {
       n = 4;
