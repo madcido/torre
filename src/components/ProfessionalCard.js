@@ -5,7 +5,7 @@ import HexagonBorder from './HexagonBorder';
 import { people } from '../data/mock.js';
 import { trimStr } from '../util.js';
 import Icon from '@mdi/react';
-import { mdiWeight, mdiCheckDecagram } from '@mdi/js';
+import { mdiWeight, mdiCheckDecagram, mdiChevronRight, mdiChevronLeft } from '@mdi/js';
 
 class ProfessionalCard extends React.Component {
   constructor(props) {
@@ -43,8 +43,12 @@ class ProfessionalCard extends React.Component {
         <p>Remoters, freelancers, employees</p>
         <img src='https://pngriver.com/wp-content/uploads/2018/04/Download-World-Map-PNG-Picture.png' alt='' />
         <div className="professional-carousel slider row justify-center">
-          <div className="slider-btn btn-2 slider-left" onClick={this.previous}>⬅</div>
-          <div className="slider-btn btn-2 slider-right" onClick={this.next}>➡</div>
+          <div className="slider-btn slider-left" onClick={this.previous}>
+            <Icon path={mdiChevronLeft} size={1} color='#333' />
+          </div>
+          <div className="slider-btn slider-right" onClick={this.next}>
+            <Icon path={mdiChevronRight} size={1} color='#333' />
+          </div>
           <div className='person-card row center'>
             <div className='professional-avatar'>
               <HexagonBorder image={dataToDisplay.avatar} />

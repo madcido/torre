@@ -3,6 +3,8 @@ import '../css/Section.css';
 import '../css/Slider.css';
 import * as allCards from './Cards';
 import { getDataToDisplay } from '../util.js';
+import Icon from '@mdi/react';
+import { mdiChevronLeft, mdiChevronRight } from '@mdi/js';
 
 class SlideSection extends React.Component {
   constructor(props) {
@@ -38,12 +40,19 @@ class SlideSection extends React.Component {
     return (
       <div className="container">
         <div className="section-head row center justify-between">
-          <a href='#'>{this.props.title} ➡</a>
+          <a href='#' className='row end'>
+            <p>{this.props.title}</p>
+            <Icon path={mdiChevronRight} size={0.85} color='#00acc1' />
+          </a>
           <a href='#'>VIEW ALL</a>
         </div>
         <div className="slider row">
-          <div className="slider-btn btn-1 slider-left" onClick={this.previousCard}>⬅</div>
-          <div className="slider-btn btn-1 slider-right" onClick={this.nextCard}>➡</div>
+          <div className="slider-btn btn-style slider-left row center justify-center" onClick={this.previousCard}>
+            <Icon path={mdiChevronLeft} size={1} color='#00acc1' />
+          </div>
+          <div className="slider-btn btn-style slider-right row center justify-center" onClick={this.nextCard}>
+            <Icon path={mdiChevronRight} size={1} color='#00acc1' />
+          </div>
           {dataToDisplay.map(data =>
             <Card data={data} key={this.props.cardData.indexOf(data)} />
           )}
