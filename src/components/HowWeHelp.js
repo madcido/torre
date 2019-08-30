@@ -1,6 +1,8 @@
 import React from 'react';
 import '../css/Card.css';
 import '../css/HowWeHelp.css';
+import Icon from '@mdi/react';
+import { mdiChevronDown } from '@mdi/js';
 
 function HowWeHelp({data, click, index}) {
   return (
@@ -10,7 +12,7 @@ function HowWeHelp({data, click, index}) {
         <p>{data.title}</p>
         <p>{data.description}</p>
       </div>
-      <p className="down-arrow">⌄</p>
+      <Icon path={mdiChevronDown} size={1} color='#00acc1' />
     </div>
   );
 }

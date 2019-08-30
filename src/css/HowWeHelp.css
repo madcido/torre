@@ -9,12 +9,11 @@
   margin: 20px;
 }
 
-.how-we-help .down-arrow {
+.how-we-help svg {
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 28px;
 }
 
 .how-we-help p {

@@ -14,7 +14,10 @@
 .active p {
   color: white !important;
 }
+.active svg path {
+  fill: white !important;
+}
 
-.active > p:last-child {
-  transform: rotate(180deg) translate(10px, -15px);
+.active svg {
+  transform: rotate(180deg) translateX(50%) !important;
 }
