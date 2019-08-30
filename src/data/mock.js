@@ -29,9 +29,18 @@ const jobs = [
     type: 'Employee/colleague',
     salary: '80k - 90k',
     members: [
-      'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
-      'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
-      'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
+        profile: 'https://www.torre.co/home',
+      },
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
+        profile: 'https://www.torre.co/home',
+      },
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+        profile: 'https://www.torre.co/home',
+      },
     ],
     rank: '??',
     expires: new Date(Date.now() + 1000*60*60*20),
@@ -46,9 +55,18 @@ const jobs = [
     type: 'Freelance/contractor',
     salary: '70k - 140k',
     members: [
-      'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
-      'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
-      'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
+        profile: 'https://www.torre.co/home',
+      },
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
+        profile: 'https://www.torre.co/home',
+      },
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+        profile: 'https://www.torre.co/home',
+      },
     ],
     rank: '??',
     expires: new Date(Date.now() + 1000*60*60*24*2),
@@ -63,9 +81,18 @@ const jobs = [
     type: 'Employee/colleague',
     salary: '80k - 100k',
     members: [
-      'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
-      'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
-      'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
+        profile: 'https://www.torre.co/home',
+      },
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
+        profile: 'https://www.torre.co/home',
+      },
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+        profile: 'https://www.torre.co/home',
+      },
     ],
     rank: '??',
     expires: new Date(Date.now() + 1000*60*60*24*11),
@@ -80,9 +107,18 @@ const jobs = [
     type: 'Employee/colleague',
     salary: '150k - 160k',
     members: [
-      'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
-      'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
-      'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
+        profile: 'https://www.torre.co/home',
+      },
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
+        profile: 'https://www.torre.co/home',
+      },
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+        profile: 'https://www.torre.co/home',
+      },
     ],
     rank: '??',
     expires: new Date(Date.now() + 1000*60*60*24*20),
@@ -97,9 +133,18 @@ const jobs = [
     type: 'Employee/colleague',
     salary: '36k',
     members: [
-      'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
-      'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
-      'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
+        profile: 'https://www.torre.co/home',
+      },
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
+        profile: 'https://www.torre.co/home',
+      },
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+        profile: 'https://www.torre.co/home',
+      },
     ],
     rank: '??',
     expires: new Date(Date.now() + 1000*60*60*24*5),
@@ -114,9 +159,18 @@ const jobs = [
     type: 'Employee/colleague',
     salary: '30k - 70k',
     members: [
-      'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
-      'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
-      'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
+        profile: 'https://www.torre.co/home',
+      },
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
+        profile: 'https://www.torre.co/home',
+      },
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+        profile: 'https://www.torre.co/home',
+      },
     ],
     rank: '??',
     expires: new Date(Date.now() + 1000*60*60*22),
@@ -131,9 +185,18 @@ const jobs = [
     type: 'Employee/colleague',
     salary: '150k - 160k',
     members: [
-      'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
-      'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
-      'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
+        profile: 'https://www.torre.co/home',
+      },
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
+        profile: 'https://www.torre.co/home',
+      },
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+        profile: 'https://www.torre.co/home',
+      },
     ],
     rank: '??',
     expires: new Date(Date.now() + 1000*60*43),
@@ -148,9 +211,18 @@ const jobs = [
     type: 'Employee/colleague',
     salary: '100k',
     members: [
-      'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
-      'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
-      'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_randomavatar_170412_0236_9n4c2i.png',
+        profile: 'https://www.torre.co/home',
+      },
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_randomsuburbguy_170104_0514_qxi74z8.png',
+        profile: 'https://www.torre.co/home',
+      },
+      {
+        avatar: 'https://pickaface.net/gallery/avatar/unr_random_180527_1151_2bcb7h9.png',
+        profile: 'https://www.torre.co/home',
+      },
     ],
     rank: '??',
     expires: new Date(Date.now() + 1000*60*60*7),
@@ -214,10 +286,25 @@ const people = [
 ];
 
 const professions = [
-  'Full-stack Developers',
-  'Front-end Developers',
-  'Back-end Developers',
-  'Dev Ops Enginners',
-  'Other',
+  {
+    title: 'Full-stack Developers',
+    anchor: 'https://torre.co/search?people.skill=55531',
+  },
+  {
+    title: 'Front-end Developers',
+    anchor: 'https://torre.co/search?people.skill=55515',
+  },
+  {
+    title: 'Back-end Developers',
+    anchor: 'https://torre.co/search?people.skill=55208',
+  },
+  {
+    title: 'Dev Ops Enginners',
+    anchor: 'https://torre.co/search?people.skill=40852',
+  },
+  {
+    title: 'Other',
+    anchor: 'https://torre.co/search',
+  },
 ];
 export { howWeHelp, jobs, people, professions };

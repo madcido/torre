@@ -71,9 +71,8 @@
   margin: 10px 0;
 }
 
-.job-card .action p {
-  color: #00acc1;
-  cursor: pointer;
+.job-card .action a {
+  margin: 0 15px;
 }
 
 .job-card .action svg {

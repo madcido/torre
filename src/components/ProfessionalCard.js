@@ -18,7 +18,7 @@ class ProfessionalCard extends React.Component {
   }
 
   previous() {
-    const lastIndex = people.filter(person => person.profession.includes(this.props.data)).length - 1;
+    const lastIndex = people.filter(person => person.profession.includes(this.props.data.title)).length - 1;
     const currentIndex = this.state.index;
     const index = currentIndex === 0 ? lastIndex : currentIndex - 1;
     this.setState({
@@ -27,7 +27,7 @@ class ProfessionalCard extends React.Component {
   }
 
   next() {
-    const lastIndex = people.filter(person => person.profession.includes(this.props.data)).length - 1;
+    const lastIndex = people.filter(person => person.profession.includes(this.props.data.title)).length - 1;
     const currentIndex = this.state.index;
     const index = currentIndex === lastIndex ? 0 : currentIndex + 1;
     this.setState({
@@ -36,10 +36,10 @@ class ProfessionalCard extends React.Component {
   }
 
   render() {
-    const dataToDisplay = people.filter(person => person.profession.includes(this.props.data))[this.state.index];
+    const dataToDisplay = people.filter(person => person.profession.includes(this.props.data.title))[this.state.index];
     return (
       <div className='card professional-card col center'>
-        <p>{this.props.data}</p>
+        <p>{this.props.data.title}</p>
         <p>Remoters, freelancers, employees</p>
         <img src='https://pngriver.com/wp-content/uploads/2018/04/Download-World-Map-PNG-Picture.png' alt='' />
         <div className="professional-carousel slider row justify-center">
@@ -66,7 +66,7 @@ class ProfessionalCard extends React.Component {
             <Icon path={mdiChevronRight} size={1} color='#333' />
           </div>
         </div>
-        <a href='#'>VIEW MORE</a>
+        <a href={this.props.data.anchor}>VIEW MORE</a>
       </div>
     );
   }

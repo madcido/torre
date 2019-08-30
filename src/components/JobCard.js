@@ -25,14 +25,14 @@ function JobCard({data}) {
       <div className='row center'>
         <p>Team members:</p>
         {data.members.map(member =>
-          <a href='#' className='team-members' key={data.members.indexOf(member)}>
-            <img src={member} alt='' />
+          <a href={member.profile} className='team-members' key={data.members.indexOf(member)}>
+            <img src={member.avatar} alt='' />
           </a>
         )}
       </div>
       <div className='row center'>
         <p>Your rank: {data.rank}</p>
-        <a href='#'>SIGN IN</a>
+        <a href='https://www.torre.co/home'>SIGN IN</a>
       </div>
       <div className='row center'>
         <p>Time left:</p>
@@ -44,8 +44,8 @@ function JobCard({data}) {
       </div>
       <div className='action row center justify-end'>
         <Icon path={mdiShareVariant} title='Share' size={1} color="#00acc1" />
-        <p>REFER</p>
-        <p>VIEW</p>
+        <a href='https://www.torre.co/home'>REFER</a>
+        <a href='https://www.torre.co/home'>VIEW</a>
       </div>
     </div>
   );

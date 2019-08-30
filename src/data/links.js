@@ -2,7 +2,7 @@ const links = [
   {
     icon: 'mdiBullhorn',
     label: 'Post a job',
-    anchor: '#',
+    anchor: 'https://www.torre.co/home',
   },
   {
     icon: 'mdiBriefcaseSearch',
@@ -12,22 +12,22 @@ const links = [
   {
     icon: 'mdiAccount',
     label: 'Your bio',
-    anchor: '#',
+    anchor: 'https://www.torre.co/home',
   },
   {
     icon: 'mdiHumanGreeting',
     label: 'Signals',
-    anchor: '#',
+    anchor: 'https://www.torre.co/home',
   },
   {
     icon: 'mdiForum',
     label: 'Messages',
-    anchor: '#',
+    anchor: 'https://www.torre.co/home',
   },
   {
     icon: 'mdiApps',
     label: 'All tools',
-    anchor: '#',
+    anchor: 'https://www.torre.co/home',
   },
 ]
 

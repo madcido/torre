@@ -3,10 +3,6 @@ import '../css/BurgerMenu.css';
 import Navlink from './Navlink';
 
 class BurgerMenu extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     document.addEventListener('click', this.toggleMenu);
   }
