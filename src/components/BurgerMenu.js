@@ -3,6 +3,15 @@ import '../css/BurgerMenu.css';
 import Navlink from './Navlink';
 
 class BurgerMenu extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      openMenu: false,
+    }
+    this.icon = React.createRef();
+    this.toggleMenu = this.toggleMenu.bind(this);
+  }
+  
   componentDidMount() {
     document.addEventListener('click', this.toggleMenu);
   }
@@ -12,24 +21,27 @@ class BurgerMenu extends React.Component {
   }
 
   toggleMenu(event) {
-    if (event.target.classList.contains('burger-menu')) {
-      document.querySelector('.burger-menu').classList.toggle('open');
-      document.querySelector('.menu').classList.toggle('show');
+    if (event.target === this.icon.current) {
+      this.setState(prevState => ({
+        openMenu: !prevState.openMenu,
+      }));
     } else {
-      document.querySelector('.burger-menu').classList.remove('open');
-      document.querySelector('.menu').classList.remove('show');
+      this.setState({
+        openMenu: false,
+      });
     }
   }
 
   render() {
+    let open = this.state.openMenu;
     return (
-      <div className='burger-menu'>
+      <div className={`burger-menu ${open ? 'open' : null}`} ref={this.icon}>
         <span></span>
         <span></span>
         <span></span>
-        <div className="menu col center">
-          {this.props.links.map(link =>
-            <Navlink icon={link.icon} label={link.label} anchor={link.anchor} key={this.props.links.indexOf(link)} />
+        <div className={`menu col center ${open ? 'show' : null}`}>
+          {this.props.links.map((link, index) =>
+            <Navlink icon={link.icon} label={link.label} anchor={link.anchor} key={index} />
           )}
         </div>
       </div>
